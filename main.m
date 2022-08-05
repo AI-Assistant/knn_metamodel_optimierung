@@ -2,7 +2,7 @@
 %clear
 
 
-%Löschen aller Cluster/Jobs
+%LÃ¶schen aller Cluster/Jobs
 delete(gcp('nocreate'));
 myCluster = parcluster('local');
 delete(myCluster.Jobs);
@@ -56,12 +56,12 @@ Teileraproxmax=4;
 
 %/////////////////////////////////////////////////////////////////////////
 
-%Die Experimente müssen in den jeweiligen "simset_Xp.m" Dateien in
+%Die Experimente mÃ¼ssen in den jeweiligen "simset_Xp.m" Dateien in
 %entsprechende Simulink-Signale umgewandelt werden.
 
-%Die Anzahl der Inputparameter sowie deren Bezeichnung im Workspace müssen
+%Die Anzahl der Inputparameter sowie deren Bezeichnung im Workspace mÃ¼ssen
 %in "parcomfunc.m" festgelegt werden.
 
-%Die Stützstellen werden in "Xp_res.mat" gespeichert und das darauf
-%basierende optimierte NNetz wird mit "net" zurückgegeben
-[net] = NNetOptimizer(opti.bounds,opti.Teiler,opti.N2,opti.model,opti.Teileraproxmax);
+%Die StÃ¼tzstellen werden in "Xp_res.mat" gespeichert und das darauf
+%basierende optimierte NNetz wird mit "net" zurÃ¼ckgegeben
+[net] = NNetOptimizer(bounds,Teiler,N2,model,Teileraproxmax);
