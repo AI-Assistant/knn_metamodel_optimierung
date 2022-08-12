@@ -1,6 +1,6 @@
 # knn_metamodell_optimierung
 
-Die Optimierungsmethode basiert auf der iterativen Verbesserung des Experiemtendesigns anhand eines optimierten Metamodells auf basis künschtlicher neuronaler Netze.
+Die Optimierungsmethode basiert auf der iterativen Verbesserung des Experiemtendesigns anhand eines optimierten Metamodells auf Grundlage künschtlicher neuronaler Netze.
 
 ## Auswahl der Stützstellen
 
