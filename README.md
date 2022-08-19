@@ -18,7 +18,7 @@ Auf Basis eines ersten Sets Stützstellen (Abb. 2), wird eine erstes Modell erst
  </div>
 
 ## Dokumentation/Einsatz
-Detailierte Dokumentation des Projektes:  
+Dokumentation des Projektes:  
 [Dokumentation](https://github.com/AI-Assistant/knn_metamodel_optimierung/blob/main/AddFiles/BA_Kander_Akinci.pdf)  
 Veröffentlichung im Zusammenhand mit dem Projekt:  
 [Artikel](https://www.sciencedirect.com/science/article/abs/pii/S0360319922008308)
